@@ -21,4 +21,13 @@ int main()
         cout << "Nilai akhir ke-" << i + 1 << " = " << nilaiAkhir[i] << endl;
     }
 
+    //Menginput grade
+    cout << endl;
+    cout << "Input Grade" << endl;
+    cout << endl;
+    for (int i = 0; i < 5; i ++)
+    {
+        cout << "Masukan Grade : ";
+        cin >> grade[i];
+    }
 }
