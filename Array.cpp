@@ -15,4 +15,10 @@ int main()
     cout << "Nama Matakuliah : " << matkul[1] << endl;
     matkul[0] = "Logika Teknik Pemrograman";
     cout << "Nama Matakuliah : " << matkul[0] << endl;
+
+    for ( int i = 0; i < 2 ; i++)
+    {
+        cout << "Nilai akhir ke-" << i + 1 << " = " << nilaiAkhir[i] << endl;
+    }
+
 }
