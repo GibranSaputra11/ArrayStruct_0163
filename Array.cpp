@@ -30,4 +30,14 @@ int main()
         cout << "Masukan Grade : ";
         cin >> grade[i];
     }
+
+    //Menampilkan grade yang sudah diinputkan 
+    cout << endl;
+    cout << "Tampilkan Grade" << endl;
+    cout << endl;
+    
+    for (int i = 0; i < 5; i ++)
+    {
+        cout << "Grade ke-" << i + 1 << " = "<< grade[i] << endl;    
+    }
 }
