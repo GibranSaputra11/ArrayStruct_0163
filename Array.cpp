@@ -12,5 +12,7 @@ char grade[5];
 
 int main()
 {
-
+    cout << "Nama Matakuliah : " << matkul[1] << endl;
+    matkul[0] = "Logika Teknik Pemrograman";
+    cout << "Nama Matakuliah : " << matkul[0] << endl;
 }
